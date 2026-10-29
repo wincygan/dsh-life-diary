@@ -1,0 +1,44 @@
+{
+  "name": "dsh-life-diary",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "两本日记：会话结束时自动往「自己那本」写碎片，换日时只读自己那本汇总出「给他的那本」。存在你自己的本机文件夹、GitHub 私人仓库或坚果云里，永不注入上下文。",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./client": "./client.js"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "diary",
+    "journal"
+  ]
+}

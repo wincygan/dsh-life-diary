@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Life Diary",
+    "description": "Two journals a day: fragments written to the agent's own book as a turn ends, and a distilled book for you at day rollover. Stored wherever you choose — local folder, private GitHub repository, or WebDAV — and never injected into context."
+  }
+}

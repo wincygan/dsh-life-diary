@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Life Diary">
+  <title>Life Diary</title>
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfbf6"/>
+      <stop offset="1" stop-color="#efe7d8"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="6" width="44" height="52" rx="7" fill="url(#page)" stroke="#3c4a63" stroke-width="2.5"/>
+  <path d="M18 15h28M18 23h28M18 31h17" stroke="#8d9bb3" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M44 6v13l-5-3.4-5 3.4V6z" fill="#e0a74a" opacity="0.95"/>
+  <path d="M24 51.5c4.2-6.4 9.6-8.6 16-10-3.6 5.4-8.2 8.4-13.6 9.6z" fill="#3c4a63" opacity="0.9"/>
+  <circle cx="41.5" cy="41" r="2.2" fill="#e0a74a"/>
+</svg>
